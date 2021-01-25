@@ -1,0 +1,33 @@
+$color: red;
+$font: 19px;
+$fontsize:Times;
+
+body {
+  h3{
+    margin: 0;
+    color: $color;
+
+    font-size: $font;
+    font-family: $fontsize;
+  }
+
+  p{
+    margin:0;
+    color: $color;
+    font-size: $font;
+    font-family: $fontsize;
+
+  }
+}
+
+
+%message{
+  font-family: Times;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.success{
+  @extend %message;
+  color: Blue;
+}
