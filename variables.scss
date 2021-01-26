@@ -1,6 +1,6 @@
 $color: red;
 $font: 19px;
-$fontsize:Times;
+$font-family:Times;
 
 body {
   h3{
@@ -8,14 +8,14 @@ body {
     color: $color;
 
     font-size: $font;
-    font-family: $fontsize;
+    font-family: $font-family;
   }
 
   p{
     margin:0;
     color: $color;
     font-size: $font;
-    font-family: $fontsize;
+    font-family: $font-family;
 
   }
 }
